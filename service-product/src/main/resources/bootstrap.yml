@@ -7,3 +7,6 @@ spring:
       - http://localhost:8081
       username: root
       password: s3cret
+
+eureka:  client:    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
